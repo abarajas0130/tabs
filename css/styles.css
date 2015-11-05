@@ -1,0 +1,33 @@
+/* Global*/
+
+mail {
+    margin: 0 auto; 
+    width: 50%;
+}
+
+
+
+/* Tab Nav */
+.tabs li {
+    background: orange;
+    list-style: none;
+    display: inline-block;
+    padding: 2em;
+}
+
+/* Tab hover*/
+.tabs li: hover {
+    background: gray;
+    transition: background: .5s;
+}
+
+
+/* Tab Content */
+#tab-1,
+#tab-2,
+#tab-3 {
+    border: 1px solid #000;
+    padding: 2em;
+    min-height: 400px;
+    width: 100%;
+}
